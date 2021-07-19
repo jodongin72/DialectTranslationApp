@@ -9,7 +9,9 @@ tree = etree.parse("C:\\xml\\857973_50000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 
@@ -18,7 +20,9 @@ tree = etree.parse("C:\\xml\\857973_100000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 
@@ -27,7 +31,9 @@ tree = etree.parse("C:\\xml\\857973_150000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 
@@ -36,7 +42,9 @@ tree = etree.parse("C:\\xml\\857973_200000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -45,7 +53,9 @@ tree = etree.parse("C:\\xml\\857973_250000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -54,7 +64,9 @@ tree = etree.parse("C:\\xml\\857973_300000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -63,7 +75,9 @@ tree = etree.parse("C:\\xml\\857973_350000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -72,7 +86,9 @@ tree = etree.parse("C:\\xml\\857973_400000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -81,7 +97,9 @@ tree = etree.parse("C:\\xml\\857973_450000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -90,7 +108,9 @@ tree = etree.parse("C:\\xml\\857973_500000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -99,7 +119,9 @@ tree = etree.parse("C:\\xml\\857973_550000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -108,7 +130,9 @@ tree = etree.parse("C:\\xml\\857973_600000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -117,7 +141,9 @@ tree = etree.parse("C:\\xml\\857973_650000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -126,7 +152,9 @@ tree = etree.parse("C:\\xml\\857973_700000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -135,7 +163,9 @@ tree = etree.parse("C:\\xml\\857973_750000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -144,7 +174,9 @@ tree = etree.parse("C:\\xml\\857973_800000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -153,7 +185,9 @@ tree = etree.parse("C:\\xml\\857973_850000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -162,7 +196,9 @@ tree = etree.parse("C:\\xml\\857973_900000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -171,7 +207,9 @@ tree = etree.parse("C:\\xml\\857973_950000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -180,7 +218,9 @@ tree = etree.parse("C:\\xml\\857973_1000000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -189,7 +229,9 @@ tree = etree.parse("C:\\xml\\857973_1050000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -198,7 +240,9 @@ tree = etree.parse("C:\\xml\\857973_1100000.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 		
@@ -207,7 +251,9 @@ tree = etree.parse("C:\\xml\\857973_1145050.xml")
 root = tree.getroot()
 
 for region_info in root.findall("item/senseInfo/region_info"):
-	if(region_info.findtext("region") == "경남" or region_info.findtext("region") == "경북" or region_info.findtext("region") == "경상"):
+	if(region_info.findtext("region") == "경남"
+		or region_info.findtext("region") == "경북"
+		or region_info.findtext("region") == "경상"):
 		item = region_info.getparent().getparent()
 		results.append(item)
 
