@@ -1,0 +1,2 @@
+# DialectTranslationApp
+Graduation Project
